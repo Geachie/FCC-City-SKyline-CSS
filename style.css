@@ -30,6 +30,12 @@ body {
   justify-content: space-evenly;
 }
 
+.building-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
 
 /* Styles for background building 1 */
@@ -37,9 +43,6 @@ body {
 .bb1 {
   width: 10%;
   height: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .bb1a {
