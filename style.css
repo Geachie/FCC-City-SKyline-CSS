@@ -5,10 +5,11 @@
   --building-color4: #538cc6;
   --window-color1: black;
   --window-color2: #8cd9b3;
+  --window-color3: #d98cb3;
 }
 
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   box-sizing: border-box;
 }
 
@@ -30,6 +31,8 @@ body {
 }
 
 /* BACKGROUND BUILDINGS - "bb" stands for "background building" */
+
+/* Styles for background building 1 */
 
 .bb1 {
   width: 10%;
@@ -62,6 +65,8 @@ body {
   background: linear-gradient(var(--building-color1), var(--window-color1));
 }
 
+/* Styles for background building 2 */
+
 .bb2 {
   width: 10%;
   height: 50%;
@@ -84,10 +89,17 @@ body {
   );
 }
 
+/* Styles for background building 3 */
+
 .bb3 {
   width: 10%;
   height: 55%;
-  background-color: var(--building-color3);
+  background: repeating-linear-gradient(
+    90deg,
+    var(--building-color3),
+    var(--building-color3),
+    var(--window-color3) 15%
+  );
 }
 
 .bb4 {
