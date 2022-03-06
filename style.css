@@ -248,6 +248,14 @@ body {
   background-color: var(--building-color1);
 }
 
+.fb4-window {
+  width: 30%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: var(--window-color1);
+  margin: 10%;
+}
+
 /* Styling for foreground building 5 */
 
 .fb5 {
